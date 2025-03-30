@@ -1,9 +1,9 @@
 name : Latest Youtube Videos
 
 on:
-  schedule:
+  #schedule:
   #runs on every day at 10.30 IST
-    - cron: "0 5 * * *"
+    #- cron: "0 5 * * *"
   workflow dispatch:
 
 permissions:
